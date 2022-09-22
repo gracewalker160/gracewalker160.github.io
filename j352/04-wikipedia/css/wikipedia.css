@@ -1,0 +1,35 @@
+body {
+    font: size px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+
+h1 {
+    color: #ff0000;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 50px
+}
+
+h2 {
+    color: #334eff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px
+}
+
+h4 {
+    color: #008C0C;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+li {
+    line-height: 2;
+}
+
+#logo {
+    color: purple;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+}
