@@ -1,0 +1,32 @@
+body {
+    background-color: #faf7f3;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    color: #664C4B;
+}
+
+h2 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #664C4B;
+}
+
+.navbar-brand {
+    background-color: #F8DCD1;
+    font-family: 'Orbitron', sans-serif;
+    color: #664C4B;
+}
+
+.navbar-nav {
+    background-color: #F8DCD1;
+    font-family: 'Orbitron', sans-serif;
+    color: #664C4B;
+}
+
+@media (max-widith: 450px) {
+    h1 {
+        color: blue;
+    }
+}
