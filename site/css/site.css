@@ -1,31 +1,30 @@
-body{
+body {
     background: #FFFFFF;
     color: #000000;
     font-family: 'Source Serif Pro', serif;
 }
-h1{
+
+h1,
+h2 {
     font-family: 'Poppins', sans-serif;
     text-decoration: underline;
+}
+
+h1 {
     text-decoration-color: #F28C28;
 }
-h2{
-    font-family: 'Poppins', sans-serif;
-    text-decoration: underline;
+
+h2 {
     text-decoration-color: #FFFF8F;
 }
-.about a{
-    color: #000000;
-text-decoration: none;
-text-transform: uppercase;
-font-size: 1em;
-display: block;
-}
 
-.about h1{
+.h1 {
     text-decoration: underline;
     text-decoration-color: #F28C28;
 }
 
-.about img{
-    box-shadow: 1.5em 1.5em #FAC898;
+@media (max-width:992px) {
+    .about p {
+        margin: 2em 0 0 0;
+    }
 }
