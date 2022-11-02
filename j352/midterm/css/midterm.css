@@ -1,0 +1,62 @@
+body {
+    font-family: 'Literata', serif;
+    background-color: #F4F5F8;
+    color: #152128;
+}
+
+nav {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+}
+
+header,
+footer {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.graphic {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #EAEAEA;
+}
+
+header {
+    margin: 5em 0 3em 0;
+}
+
+footer {
+    font-weight: 200;
+    margin: 1em 3em 5em 3em;
+}
+
+h1 {
+    font-weight: 300;
+    padding-bottom: 1em;
+    display: block;
+    text-align: center;
+}
+
+
+.byline {
+    font-weight: 300;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+article {
+    font-size: 15px;
+    font-weight: normal;
+    margin: 1em 5em 1em 5em;
+}
+
+img {
+    margin: 2em 2em 2em 2em;
+}
+
+a {
+    color: black;
+}
