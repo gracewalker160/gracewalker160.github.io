@@ -1,16 +1,48 @@
-body{
-   font-family:Georgia, 'Times New Roman', Times, serif;
-   border-style: solid;
-   border-color: #328CFF;
-   border-width: 5em;
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style: solid;
+    border-color: #328CFF;
+    border-width: 5em;
 }
 
-h1{
+h1 {
     text-decoration: underline;
-    text-decoration-color: #328CFF;
-margin: 1em;
+    text-decoration-color: #bb8fce;
+    margin: 1em;
 }
 
-article{
+h3 {
     margin: 1em;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #bb8fce;
+}
+
+article {
+    margin: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #328CFF
+}
+
+footer {
+    font-size: x-small;
+}
+
+figure {
+    font-size: small;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        border-color: #a7f7a3;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        border-color: #bb8fce;
+    }
 }
